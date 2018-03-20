@@ -138,7 +138,7 @@ $(document).ready(function () {
 
     lunaImages[21] = new Image;
     $(lunaImages[21]).addClass("lunaImage twentyOne");
-    $(lunaImages[21]).attr("src", "assets/images/Luna/Luna-Animal-Prints.jpg");
+    $(lunaImages[21]).attr("src", "assets/images/Luna/Luna-Purple-Fuschia-Futurustic.jpg");
     $(lunaImages[21]).attr("id", "img-22");
     $(lunaImages).append(lunaImages[21]);
 
