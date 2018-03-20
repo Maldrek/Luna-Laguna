@@ -1,7 +1,7 @@
 // -------------------------------- Sound Call ---------------------------------- //
 $(document).ready(function () {
 
-    let audio = new Audio("/assets/sounds/Saint-Peters-Greeting.mp3");
+    let audio = new Audio("assets/sounds/Saint-Peters-Greeting.mp3");
     audio.volume = 0.7;
     audio.play();
 
