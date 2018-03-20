@@ -1,3 +1,181 @@
 body {
-    background-color: rgb(26, 92, 35);
+    background-color: rgb(13, 54, 19);
+    background-image: url("../assets/images/gold-ring.png");
+    background-size: 20px 20px;
+    background-repeat: repeat;
+    height: 1200px;
+    width: 1500px;
+    overflow: hidden;
+}
+
+/* CSS for all Luna Images */
+.lunaImage {
+    height:250px;
+    width:200px;
+    border: 1px solid black;
+}
+
+ /* Setting Image Placement */
+.zero {
+    position: absolute;
+    left: 670px;
+    top: 225px;
+}
+
+.one {
+    position: absolute;
+    left: 250px;
+    top: 50px;
+
+}
+
+.two {
+    position: absolute;
+    left: 1000px;
+    top: 500px;
+}
+
+.three {
+    position: absolute;
+    left: 200px;
+    top: 450px;
+}
+
+.four {
+    position: absolute;
+    right: 150px;
+    bottom: 400px;
+}
+
+.five {
+    position: absolute;
+    left: 125px;
+    top: 225px;
+}
+
+.six {
+    position: absolute;
+    right: -5px;
+    top: 275px;
+}
+
+.seven {
+    position: absolute;
+    left: 550px;
+    top: 75px;
+}
+
+.eight {
+    position: absolute;
+    left: 800px;
+    bottom: 50px;
+}
+
+.nine {
+    position: absolute;
+    left: 500px;
+    bottom: 125px;
+}
+
+.ten {
+    position: absolute;
+    left: 850px;
+    top: 150px;
+}
+
+.eleven {
+    position: absolute;
+    right: 300px;
+    bottom: 250px;
+}
+
+.twelve {
+    position: absolute;
+    left: 350px;
+    bottom: 250px;
+}
+
+.thirteen {
+    position: absolute;
+    right: 350px;
+    bottom: 525px;
+}
+
+.fourteen {
+    position: absolute;
+    top: 500px;
+}
+
+.fifteen {
+    position: absolute;
+    right: 10px;
+    bottom: 475px;
+}
+
+.sixteen {
+    position: absolute;
+    bottom: 500px;
+    left: 15px;
+}
+
+.seventeen {
+    position: absolute;
+    left: 725px;
+    bottom: 525px;
+}
+
+.eighteen {
+    position: absolute;
+    right: -25px;
+    bottom: -25px;
+}
+
+.nineteen {
+    position: absolute;
+    right: 725px;
+    bottom: -10px;
+}
+
+.twenty {
+    position: absolute;
+    left: 425px;
+    bottom: 525px;
+}
+
+.twentyOne {
+    position: absolute;
+    right: 500px;
+    bottom: 1000px;
+}
+
+.twentyTwo {
+    position: absolute;
+    left: 375px;
+    bottom: -25px;
+}
+
+.twentyThree {
+    position: absolute;
+    bottom: 25px;
+    right: 190px;
+}
+
+.twentyFour {
+    position: absolute;
+    bottom: 240px;
+    right: 1400px;
+}
+
+/* Modal CSS */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 150px;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
 }
