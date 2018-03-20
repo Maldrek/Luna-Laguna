@@ -1,11 +1,33 @@
 body {
-    background-color: rgb(13, 54, 19);
-    background-image: url("../assets/images/gold-ring.png");
-    background-size: 20px 20px;
-    background-repeat: repeat;
-    height: 1200px;
-    width: 1500px;
-    overflow: hidden;
+height: 1200px;
+width: 1500px;
+overflow: hidden;
+}
+
+body {
+    background: linear-gradient(220deg, #25642e, #070c08, #035f48, #1e5508);
+    background-size: 800% 800%;
+    -webkit-animation: gradient 11s ease infinite;
+    -moz-animation: gradient 11s ease infinite;
+    animation: gradient 11s ease infinite;
+}
+
+@-webkit-keyframes gradient {
+    0%{background-position:90% 0%}
+    50%{background-position:11% 100%}
+    100%{background-position:90% 0%}
+}
+
+@-moz-keyframes gradient {
+    0%{background-position:90% 0%}
+    50%{background-position:11% 100%}
+    100%{background-position:90% 0%}
+}
+
+@keyframes gradient { 
+    0%{background-position:90% 0%}
+    50%{background-position:11% 100%}
+    100%{background-position:90% 0%}
 }
 
 #disclaimer {
@@ -23,15 +45,14 @@ body {
  /* Setting Image Placement */
 .zero {
     position: absolute;
-    left: 670px;
-    top: 225px;
+    left: 43.7%;
+    top: 30%;
 }
 
 .one {
     position: absolute;
-    left: 250px;
-    top: 50px;
-
+    left: 15%;
+    top: 3%;
 }
 
 .two {
