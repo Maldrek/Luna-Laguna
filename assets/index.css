@@ -8,6 +8,10 @@ body {
     overflow: hidden;
 }
 
+#disclaimer {
+    padding-left: 2%;
+}
+
 /* CSS for all Luna Images */
 .lunaImage {
     height:250px;

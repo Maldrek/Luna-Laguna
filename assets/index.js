@@ -5,6 +5,8 @@ $(document).ready(function () {
     audio.volume = 0.7;
     audio.play();
 
+    $("#disclaimer").delay(10000).hide(10000);
+
     // creating an array of the images in the images folder
     var lunaImages = new Array;
 
@@ -195,6 +197,8 @@ $(document).ready(function () {
     });
 
 });
+
+
 
 // Getting Modal JS Here //
 
