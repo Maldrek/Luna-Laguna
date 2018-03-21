@@ -7,8 +7,7 @@ overflow: hidden;
 }
 
 body {
-    background: linear-gradient(220deg, #25642e, #0c232c, #106351, #208135, #0c232c, #177055, #106351, #0c232c, #208135, #0c232c, #106351, #25642e);
-    background-size: 2400% 2400%;
+    background: linear-gradient(220deg, #25642e, #213c3a, #266b64, #336021, #213c3a, #336021, #266b64, #213c3a, #336021, #213c3a, #266b64, #25642e);    background-size: 2400% 2400%;
     
     -webkit-animation: AnimationName 80s ease infinite;
     -moz-animation: AnimationName 80s ease infinite;
@@ -37,8 +36,8 @@ body {
 
 /* CSS for all Luna Images */
 .lunaImage {
-    height:34%;
-    width:12.5%;
+    height:34vh;
+    width:12vw;
     border: 1px solid black;
     box-shadow: 5px 5px 20px black;
 }
@@ -46,152 +45,152 @@ body {
  /* Setting Image Placement */
 .zero {
     position: absolute;
-    left: 43.7%;
-    top: 30%;
+    left: 43.7vw;
+    top: 30vh;
 }
 
 .one {
     position: absolute;
-    left: 15%;
-    top: 3%;
+    left: 15vw;
+    top: 3vh;
 }
 
 .two {
     position: absolute;
-    left: 65%;
-    top: 65%;
+    left: 65vw;
+    top: 65vh;
 }
 
 .three {
     position: absolute;
-    left: 13%;
-    top: 63%;
+    left: 13vw;
+    top: 63vh;
 }
 
 .four {
     position: absolute;
-    right: 11%;
-    bottom: 57%;
+    right: 11vw;
+    bottom: 60vh;
 }
 
 .five {
     position: absolute;
-    left: 9.5%;
-    top: 33%;
+    left: 9.5vw;
+    top: 33vh;
 }
 
 .six {
     position: absolute;
-    right: -0.5%;
-    top: 39%;
+    right: -0.5vw;
+    top: 39vh;
 }
 
 .seven {
     position: absolute;
-    left: 35.3%;
-    top: 10%;
+    left: 35.3vw;
+    top: 10vh;
 }
 
 .eight {
     position: absolute;
-    left: 53%;
-    bottom: 5%;
+    left: 53vw;
+    bottom: 5vh;
 }
 
 .nine {
     position: absolute;
-    left: 32.5%;
-    bottom: 16%;
+    left: 32.5vw;
+    bottom: 16vh;
 }
 
 .ten {
     position: absolute;
-    left: 55%;
-    top: 19%;
+    left: 55vw;
+    top: 19vh;
 }
 
 .eleven {
     position: absolute;
-    right: 19%;
-    bottom: 34%;
+    right: 23.5vw;
+    bottom: 34vh;
 }
 
 .twelve {
     position: absolute;
-    left: 23%;
-    bottom: 36%;
+    left: 23vw;
+    bottom: 36vh;
 }
 
 .thirteen {
     position: absolute;
-    right: 23%;
-    bottom: 72%;
+    right: 23vw;
+    bottom: 72vh;
 }
 
 .fourteen {
     position: absolute;
-    top: 68%;
-    left: -0.5%;
+    top: 68vh;
+    left: -0.5vw;
 }
 
 .fifteen {
     position: absolute;
-    right: 1%;
-    bottom: 65%;
+    right: 1vw;
+    bottom: 65vh;
 }
 
 .sixteen {
     position: absolute;
-    bottom: 68%;
-    left: 1%;
+    bottom: 68vh;
+    left: 1vw;
 }
 
 .seventeen {
     position: absolute;
-    left: 45%;
-    bottom: 73%;
+    left: 45vw;
+    bottom: 73vh;
 }
 
 .eighteen {
     position: absolute;
-    right: -1%;
-    bottom: -10%;
+    right: -2vw;
+    bottom: -10vh;
 }
 
 .nineteen {
     position: absolute;
-    right: 45%;
-    bottom: -4%;
+    right: 45vw;
+    bottom: -4vh;
 }
 
 .twenty {
     position: absolute;
-    left: 25%;
-    bottom: 71.5%;
+    left: 25vw;
+    bottom: 71.5vh;
 }
 
 .twentyOne {
     position: absolute;
-    right: 10%;
-    bottom: 15%;
+    right: 10vw;
+    bottom: 25vh;
 }
 
 .twentyTwo {
     position: absolute;
-    left: 25%;
-    bottom: -5%;
+    left: 25vw;
+    bottom: -5vh;
 }
 
 .twentyThree {
     position: absolute;
-    bottom: -10%;
-    right: 11%;
+    bottom: -10vh;
+    right: 11vw;
 }
 
 .twentyFour {
     position: absolute;
-    bottom: 35%;
-    right: 90%;
+    bottom: 35vh;
+    right: 90vw;
 }
 
 /* Modal CSS */
