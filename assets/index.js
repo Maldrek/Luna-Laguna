@@ -178,18 +178,18 @@ $(document).ready(function () {
     $(lunaImages[10]).delay(12400).fadeIn(1600);
     $(lunaImages[11]).delay(13000).fadeIn(1500);
     $(lunaImages[12]).delay(13500).fadeIn(1400);
-    $(lunaImages[13]).delay(14900).fadeIn(1300);
-    $(lunaImages[14]).delay(15200).fadeIn(1200);
-    $(lunaImages[15]).delay(16400).fadeIn(1100);
-    $(lunaImages[16]).delay(17500).fadeIn(1000);
-    $(lunaImages[17]).delay(18500).fadeIn(900);
-    $(lunaImages[18]).delay(19400).fadeIn(800);
-    $(lunaImages[19]).delay(20200).fadeIn(700);
-    $(lunaImages[20]).delay(20900).fadeIn(600);
-    $(lunaImages[21]).delay(21500).fadeIn(500);
-    $(lunaImages[22]).delay(22000).fadeIn(500);
-    $(lunaImages[23]).delay(23500).fadeIn(500);
-    $(lunaImages[24]).delay(24000).fadeIn(500);
+    $(lunaImages[13]).delay(14000).fadeIn(1300);
+    $(lunaImages[14]).delay(14500).fadeIn(1200);
+    $(lunaImages[15]).delay(15000).fadeIn(1100);
+    $(lunaImages[16]).delay(15500).fadeIn(1000);
+    $(lunaImages[17]).delay(16000).fadeIn(900);
+    $(lunaImages[18]).delay(16500).fadeIn(800);
+    $(lunaImages[19]).delay(17000).fadeIn(700);
+    $(lunaImages[20]).delay(17500).fadeIn(600);
+    $(lunaImages[21]).delay(18000).fadeIn(500);
+    $(lunaImages[22]).delay(18500).fadeIn(500);
+    $(lunaImages[23]).delay(19000).fadeIn(500);
+    $(lunaImages[24]).delay(19500).fadeIn(500);
 
     $(window).on("click", function () {
         audio.stop();
