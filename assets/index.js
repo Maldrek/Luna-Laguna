@@ -5,6 +5,8 @@ $(document).ready(function () {
     audio.volume = 0.7;
     audio.play();
 
+    console.log(audio);
+
     $("#disclaimer").delay(10000).hide(10000);
 
     // creating an array of the images in the images folder
@@ -165,35 +167,43 @@ $(document).ready(function () {
 
     console.log(lunaImages);
 
-    $(lunaImages[0]).fadeIn(3500);
-    $(lunaImages[1]).delay(2500).fadeIn(2500);
-    $(lunaImages[2]).delay(4000).fadeIn(2400);
-    $(lunaImages[3]).delay(5400).fadeIn(2300);
-    $(lunaImages[4]).delay(6700).fadeIn(2200);
-    $(lunaImages[5]).delay(7900).fadeIn(2100);
-    $(lunaImages[6]).delay(9000).fadeIn(2000);
-    $(lunaImages[7]).delay(10000).fadeIn(1900);
-    $(lunaImages[8]).delay(10900).fadeIn(1800);
-    $(lunaImages[9]).delay(11700).fadeIn(1700);
-    $(lunaImages[10]).delay(12400).fadeIn(1600);
-    $(lunaImages[11]).delay(13000).fadeIn(1500);
-    $(lunaImages[12]).delay(13500).fadeIn(1400);
-    $(lunaImages[13]).delay(14000).fadeIn(1300);
-    $(lunaImages[14]).delay(14500).fadeIn(1200);
-    $(lunaImages[15]).delay(15000).fadeIn(1100);
-    $(lunaImages[16]).delay(15500).fadeIn(1000);
-    $(lunaImages[17]).delay(16000).fadeIn(900);
-    $(lunaImages[18]).delay(16500).fadeIn(800);
-    $(lunaImages[19]).delay(17000).fadeIn(700);
-    $(lunaImages[20]).delay(17500).fadeIn(600);
-    $(lunaImages[21]).delay(18000).fadeIn(500);
-    $(lunaImages[22]).delay(18500).fadeIn(500);
-    $(lunaImages[23]).delay(19000).fadeIn(500);
-    $(lunaImages[24]).delay(19500).fadeIn(500);
+    function fadeLuna() {
+        $(lunaImages[0]).fadeIn(3500);
+        $(lunaImages[1]).delay(2500).fadeIn(2500);
+        $(lunaImages[2]).delay(4000).fadeIn(2400);
+        $(lunaImages[3]).delay(5400).fadeIn(2300);
+        $(lunaImages[4]).delay(6700).fadeIn(2200);
+        $(lunaImages[5]).delay(7900).fadeIn(2100);
+        $(lunaImages[6]).delay(9000).fadeIn(2000);
+        $(lunaImages[7]).delay(10000).fadeIn(1900);
+        $(lunaImages[8]).delay(10900).fadeIn(1800);
+        $(lunaImages[9]).delay(11700).fadeIn(1700);
+        $(lunaImages[10]).delay(12400).fadeIn(1600);
+        $(lunaImages[11]).delay(13000).fadeIn(1500);
+        $(lunaImages[12]).delay(13500).fadeIn(1400);
+        $(lunaImages[13]).delay(14000).fadeIn(1300);
+        $(lunaImages[14]).delay(14500).fadeIn(1200);
+        $(lunaImages[15]).delay(15000).fadeIn(1100);
+        $(lunaImages[16]).delay(15500).fadeIn(1000);
+        $(lunaImages[17]).delay(16000).fadeIn(900);
+        $(lunaImages[18]).delay(16500).fadeIn(800);
+        $(lunaImages[19]).delay(17000).fadeIn(700);
+        $(lunaImages[20]).delay(17500).fadeIn(600);
+        $(lunaImages[21]).delay(18000).fadeIn(500);
+        $(lunaImages[22]).delay(18500).fadeIn(500);
+        $(lunaImages[23]).delay(19000).fadeIn(500);
+        $(lunaImages[24]).delay(19500).fadeIn(500);
+    }
 
-    $(window).on("click", function () {
-        audio.stop();
-        $(".index").append(lunaImages);
+    fadeLuna();
+
+    $(document).on("click", function () {
+        audio.pause();
+        $(lunaImages).stop();
+        $("#disclaimer").delay(500).hide();
+        for (let i = 0; i < lunaImages.length; i++) {
+            $(lunaImages[i]).fadeIn(500);
+        };
     });
 
 });
